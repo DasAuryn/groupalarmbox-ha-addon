@@ -1,0 +1,28 @@
+name: GroupAlarmBox
+description: Scans your network for the GroupAlarmBox
+
+configuration:
+  ha_base_url:
+    name: Home Assistant URL
+    description: Base URL of your Home Assistant, e.g. http://homeassistant:8123
+  ha_token:
+    name: Home Assistant Token
+    description: Long-lived access token (Settings → Profile → Tokens)
+  mqtt_host:
+    name: MQTT host
+    description: Hostname of the MQTT broker (e.g. homeassistant)
+  mqtt_host_ip:
+    name: MQTT host (IPv4, optional)
+    description: Force IPv4 address for the broker; leave empty to use DNS
+  mqtt_port:
+    name: MQTT port
+    description: Default 1883 for unencrypted
+  mqtt_user:
+    name: MQTT user
+    description: Username for the broker
+  mqtt_pass:
+    name: MQTT password
+    description: Password for the broker
+
+network:
+  "42424/udp": Provisioning port (UDP)

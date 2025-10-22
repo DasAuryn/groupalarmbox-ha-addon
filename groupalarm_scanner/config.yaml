@@ -1,0 +1,37 @@
+{
+  "name": "GroupAlarmBox",
+  "description": "Scannt das Netzwerk nach deiner GroupAlarmBox",
+  "version": "1.0.0",
+  "slug": "groupalarm_scanner",
+  "init": false,
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["aarch64", "amd64"],
+  "host_network": true,
+
+  "services": ["mqtt:want"],
+
+  "options": {
+    "ha_base_url": "http://homeassistant:8123",
+    "ha_token": "",
+    "mqtt_host": "",
+    "mqtt_host_ip": "",
+    "mqtt_port": 1883,
+    "mqtt_user": "",
+    "mqtt_pass": ""
+  },
+  "schema": {
+    "ha_base_url": "str",
+    "ha_token": "str?",
+    "mqtt_host": "str",
+    "mqtt_host_ip": "str?",
+    "mqtt_port": "int",
+    "mqtt_user": "str",
+    "mqtt_pass": "password"
+  },
+
+  "build_from": {
+    "aarch64": "ghcr.io/home-assistant/aarch64-base:latest",
+    "amd64":   "ghcr.io/home-assistant/amd64-base:latest"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "GroupAlarmBox - Add-On",
   "description": "Scannt das Netzwerk nach deiner GroupAlarmBox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "slug": "groupalarm_scanner",
   "init": false,
   "startup": "application",

@@ -7,7 +7,7 @@ IMPORTANT — This is a source-available proprietary license. It is NOT an open�
 By downloading, installing, copying, or using the Software, you agree to be bound by this License.
 
 1. DEFINITIONS
-1.1 “Software” means the GroupAlarm Home Assistant Add-on and all associated source code,
+1.1 “Software” means the GroupAlarmBox Home Assistant Add-on and all associated source code,
      object code, scripts, templates, configuration files, and assets made available by Smart PSA GmbH
      in the official repository specified in Section 3.2, including any Updates (Section 6).
 1.2 “You” means the individual or legal entity exercising rights under this License.

@@ -68,6 +68,9 @@ Alles geschieht lokal — schnell, sicher und ohne externe Server.
 ---
 
 ## 🧾 Lizenz & Haftung
+Lizenz: Smart PSA Public Use License (No Derivatives, No Redistribution).
+Nutzung frei; keine Modifikation, keine Weiterverbreitung.
+Siehe LICENSE.txt.
 
 Dieses Add-on wird kostenlos bereitgestellt und ist für die private oder organisatorische Nutzung gedacht.  
 Die Nutzung erfolgt auf eigene Verantwortung. Für Alarme, die nicht oder verspätet übermittelt werden, wird keine Haftung übernommen.
